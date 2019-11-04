@@ -45,4 +45,6 @@ h2 {
 p {
   font-size: 2rem;
   font-style: italic;
+  width: 100%;
+  max-width: 50em;
 }
