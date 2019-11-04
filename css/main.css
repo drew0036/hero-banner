@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -9,7 +10,6 @@ html {
 
 body {
   margin: 0;
-  line-height: 1.2;
 }
 
 .banner {
@@ -20,12 +20,12 @@ body {
 
 .text {
   position: absolute;
-  left: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0;
-  display: flex;
   flex-wrap: wrap;
   text-align: left;
-  max-width: 50em;
+  display: inline;
 }
 
 .img-flex {
@@ -36,8 +36,10 @@ body {
 h2 {
   font-size: 4rem;
   font-weight: bold;
+  line-height: 1.5;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
+  display: inline;
 }
 
 p {
